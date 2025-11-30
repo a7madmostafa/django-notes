@@ -25,12 +25,15 @@ mysite/
     manage.py
     mysite/
         __init__.py
+        asgi.py
         settings.py
         urls.py
         wsgi.py
 ```
 - `manage.py`: A command-line utility that lets you interact with this Django project.
 - `mysite/`: The actual Python package for your project.
+- `__init__.py`: An empty file that tells Python that this directory should be considered a Python package.
+- `asgi.py`: An entry-point for ASGI-compatible web servers to serve your project
 - `settings.py`: Configuration settings for this Django project.
 - `urls.py`: The URL declarations for this Django project; a "table of contents" of your Django-powered site.
 - `wsgi.py`: An entry-point for WSGI-compatible web servers to serve your project.
